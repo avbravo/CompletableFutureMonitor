@@ -59,7 +59,7 @@ public class Complete {
                     .withGroup(group)
                     .withOk(0)
                     .withFailure(0)
-                    .withShow("on")
+                     .withActive("on")
                     .build();
             Host google = new Host.Builder()
                     .withHost("8.8.8.8")
@@ -67,7 +67,7 @@ public class Complete {
                     .withGroup(group)
                     .withOk(0)
                     .withFailure(0)
-                    .withShow("on")
+                     .withActive("on")
                     .build();
             Host yahoo = new Host.Builder()
                     .withHost("yahoo.com")
@@ -75,7 +75,7 @@ public class Complete {
                     .withGroup(group)
                     .withOk(0)
                     .withFailure(0)
-                    .withShow("on")
+                     .withActive("on")
                     .build();
             Host movil2 = new Host.Builder()
                     .withHost("192.168.0.2")
@@ -83,7 +83,7 @@ public class Complete {
                     .withGroup(group)
                     .withOk(0)
                     .withFailure(0)
-                    .withShow("on")
+                     .withActive("on")
                     .build();
             Host ebay = new Host.Builder()
                     .withHost("ebay.com")
@@ -91,7 +91,7 @@ public class Complete {
                     .withGroup(group)
                     .withOk(0)
                     .withFailure(0)
-                    .withShow("on")
+                     .withActive("on")
                     .build();
 
             List<Host> hostList = new ArrayList<>();
