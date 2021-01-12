@@ -5,8 +5,6 @@
  */
 package com.avbravp.completablefuturemonitor.supply;
 
-import com.avbravp.completablefuturemonitor.completable.*;
-import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
 /**
